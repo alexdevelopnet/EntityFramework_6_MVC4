@@ -14,7 +14,6 @@ namespace WebMVC1.Controllers
         {
             ProdutoRepository _repository = new ProdutoRepository();
 
-
             Produto produto = new Produto() { Nome = "Feijão", CategoriaId = 1 };
            
             _repository.Incluir(produto);

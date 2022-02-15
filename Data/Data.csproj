@@ -125,8 +125,8 @@
       <DependentUpon>202202142258242_inicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="ProdutoMap.cs" />
-    <Compile Include="ProdutoRepository.cs" />
+    <Compile Include="Repository\CategoriaRepository.cs" />
+    <Compile Include="Repository\ProdutoRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

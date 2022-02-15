@@ -21,6 +21,7 @@ namespace Data
             }
 
         }
+       
         public List<Produto> GetAll()
         {
             using (var contexto = new DbContextMVC())
@@ -29,6 +30,7 @@ namespace Data
                 return produtos;
             }
         }
+        
         public Produto Get(int id)
         {
             using (var contexto = new DbContextMVC())
